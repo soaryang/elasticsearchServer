@@ -7,4 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public interface ClienteRepository extends ElasticsearchRepository<Cliente,String> {
 
+
+
+
 }

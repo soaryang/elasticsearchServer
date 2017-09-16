@@ -3,7 +3,15 @@ package cn.soaryang.elasticsearch.bean;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
 
-@Document(indexName = "customer",type="external",shards=1,replicas=0,refreshInterval="-1")
+
+//String indexName();//索引库的名称，个人建议以项目的名称命名
+//String type() default "";//类型，个人建议以实体的名称命名
+//short shards() default 5;//默认分区数
+//short replicas() default 1;//每个分区默认的备份数
+//String refreshInterval() default "1s";//刷新间隔
+//String indexStoreType() default "fs";//索引文件存储类型
+
+@Document(indexName = "customer",type="external",shards=20,replicas=1,refreshInterval="-1")
 public class Cliente {
 
     @Id
