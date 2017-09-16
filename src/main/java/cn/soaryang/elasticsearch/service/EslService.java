@@ -5,8 +5,6 @@ import cn.soaryang.elasticsearch.dao.user.ClienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-
 @Service
 public class EslService {
 
@@ -16,10 +14,5 @@ public class EslService {
 
     public void save(Cliente cliente){
         clienteRepository.save(cliente);
-    }
-
-
-    public void saveList(List<Cliente> clienteList){
-        clienteRepository.save(clienteList);
     }
 }
