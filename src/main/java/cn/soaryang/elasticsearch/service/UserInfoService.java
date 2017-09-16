@@ -2,12 +2,9 @@ package cn.soaryang.elasticsearch.service;
 
 
 import cn.soaryang.elasticsearch.bean.UserInfo;
-import cn.soaryang.elasticsearch.dao.UserInfoRepository;
+import cn.soaryang.elasticsearch.dao.user.UserInfoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
-import org.springframework.data.elasticsearch.annotations.Query;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package cn.soaryang.elasticsearch.dao;
+package cn.soaryang.elasticsearch.dao.user;
 
 import cn.soaryang.elasticsearch.bean.Cliente;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;

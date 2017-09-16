@@ -1,7 +1,7 @@
 package cn.soaryang.elasticsearch.service;
 
 import cn.soaryang.elasticsearch.bean.Cliente;
-import cn.soaryang.elasticsearch.dao.ClienteRepository;
+import cn.soaryang.elasticsearch.dao.user.ClienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
